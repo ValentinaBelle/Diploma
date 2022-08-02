@@ -52,15 +52,15 @@ section{
 }
 
 .header .navbar a{
+    font-family: 'Lobster', cursive;
     font-size: 2rem;
     margin-left: 2.8rem;
     color: #0DAAC3;
+  text-decoration: none;
 }
 
-.header .navbar a:hover{
-    padding-bottom: .5rem;
-    color:  #69AF32;
-    border-bottom: 0.1rem solid  #69AF32;
+.navbar a:hover {
+color: #69AF32;
 }
 
 #menu-btn{
@@ -93,7 +93,7 @@ section{
     background-attachment: fixed;
 }
 .hero h1 {
-    /* Text styles */
+    font-family: 'Lobster', cursive;
     font-size: 5em;
     
     /* Margins */
@@ -125,14 +125,16 @@ section{
     background-color: #F5C922;
 }
 
-.hero .btn:hover {
-    color:rgb(15, 139, 255);
-}
 .hero .btn a {
     color: white;
     text-decoration: none;
     font-size: 1.5em;
 }
+.hero .btn:hover {
+    background: linear-gradient(#69AF32, #F5C922);
+}
+
+
 
 /* about us */
 
@@ -157,6 +159,7 @@ section{
 }
 
 .about .row .content h3{
+    font-family: 'Lobster', cursive;
     font-size: 3.5rem;
     color: #69AF32;
     padding: 2rem 0;
@@ -232,8 +235,6 @@ section{
     font-weight: lighter;
 }
 
-
-
 /* footer */
 
 .footer{
@@ -289,9 +290,9 @@ section{
     display: block;
 }
 
-.footer .icons-container .icons .link:hover{
+.footer .icons-container .icons .fas:hover{
+    border: 1px solid #F5C922;
     color: #69AF32;
-    text-decoration: underline;
 }
 
 
