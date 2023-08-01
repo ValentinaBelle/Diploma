@@ -1,204 +1,126 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Ice cream Cafe</title>
-    <!-- bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
-    <!-- font awesome -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
-    />
-    <!-- custom css -->
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <!-- header -->
-    <section class="header">
-      <a href="#" class="logo">
-        <img src="images/logo.png" alt="Picture of the ice cream" />
-      </a>
-      <nav class="navbar">
-        <a href="#about">О нас</a>
-        <a href="#menu">Меню</a>
-        <a href="#gallery">Галерея</a>
-        <a href="#chat">Контакты</a>
-      </nav>
-     
-    </section>
-    <!-- header -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+</head>
+<body>
+<header>
+    <nav id="menu">
+        <img src="logo.png" alt="Logo of the brand">  
+        <ul>  
+            <li>  <a href="#menu">Flavours</a></li>
+            <li><a href="#gallery">Interior</a></li>
+            <li> <a href="#about">About Us</a></li>
+            <li><a href="#map">Address</a></li>
+        </ul>
+    </nav>
+</header>
 
-    <!-- home section -->
-    <div class="container-fluid">
-      <section class="hero">
-        <div class="hero-inner">
-            <h1>Попробуй лето на вкус!</h1>
-            <button type="button" class="btn btn-outline-success">
-             <a href="#menu">Подробнее</a> 
-             </button>
-        </div>
-    </section>
-  </div>
-    <!-- home section -->
+ <section id="hero">
+        <h1>Gelato con amor </h1>
+        <p>Place where gelato meets amor...</p>
+        <button>
+            <a href="#menu">
+            Explore
+        </a>
+        </button>
 
-    <!-- about us -->
+    </section>    
 
-    <section class="about" id="about">
-      <div class="row">
-        <div class="image">
-          <img
-            src="images/ice-cream-cup.jpg"
-            alt="photo of creme brulee ice cream"
-          />
-        </div>
+ 
+    <section id="flavors">
+        <div class="container">
+<div class="durian">
+    <h3>Durian ice cream</h3>
+    <p>Made with the fresh Thailand durian, whole milk, vanilla and coconut sugar</p>
+    <img src="durian.png" alt="Durian ice cream">
+    <button>Pick me</button>
+</div>
 
-        <div class="content">
-          <h3>Органическое мороженое из свежих ингредиентов со всего мира!</h3>
-          <p>Истинное итальянское мороженое в Санта-Барбаре.</p>
-          <p>
-            Мы используем в рецептуре только старинные, проверенные временем
-            рецепты нашей нонны, которые передаются в нашей семье из поколения в
-            поколение.
-          </p>
-        </div>
+<div class="greenTea">
+    <h3>Green tea ice cream</h3>
+    <p>Made with the organic green tea, whole milk, vanilla and coconut sugar</p>
+    <img src="greenTea.png" alt="Green tea ice cream">
+    <button>Pick me</button>
+</div>
+
+<div class="melon">
+    <h3>Melon ice cream</h3>
+    <p>Made with the Spanish melon, coconut milk, vanilla and coconut sugar</p>
+    <img src="melon.png" alt="Melon">
+    <button>Pick me</button>
+</div>
+
+ 
+ <div class="blueberry">
+    <h3>Blueberry ice cream</h3>
+    <p>Made with the fresh Italian blueberry, whole milk, vanilla and organic sugar</p>
+    <img src="blueberry.png" alt="Blueberry ice cream">
+    <button>Pick me</button>
+</div>
+
+<div class="mango">
+    <h3>Mango ice cream</h3>
+    <p>Made with the fresh Italian mango, whole milk, mango syrup and coconut sugar</p>
+    <img src="mango.png" alt="mango ice cream">
+    <button>Pick me</button>
+</div>
+
+<div class="chocolate">
+    <h3>Chocolate ice cream</h3>
+    <p>Made with the Switzerland chocolate, whole milk, heavy cream and chocolate syrup</p>
+    <img src="chocolate.png">
+    <button>Pick me</button>
+</div>  
+ </div>
+</section>
+
+<!-- bootstrap image gallery 1
+<div class="container-fluid">
+    <h1 class="text-center">Wonderful Oceans And Life Within</h1>
+    <p class="text-center">The oceans cover more than 70 per cent of the Earth’s surface and the majority of life on Earth is aquatic.</p>
+  
+    <div class="d-flex flex-wrap justify-content-center">
+      <div class="d-flex flex-column">
+        <img class="img-fluid" src="cremeBrulee.jpg">
+        <img class="img-fluid" src="cremeBruleeCone.jpg">
       </div>
-    </section>
-
-    <!-- about us -->
-
-    <!-- menu -->
-
-    <section class="menu" id="menu">
-      <h2>Летнее Меню:</h2>
-      <div class="box-container">
-        <div class="box">
-          <div class="image">
-            <img src="images/menu-1.png" alt="strawberry ice cream" />
-          </div>
-          <div class="content">
-            <h3 class="title">Сочная клубника</h3>
-            <p>
-              В составе только сочная клубника из Наполи, сливки, ваниль и
-              молоко.
-            </p>
-            <div class="price">$15</div>
-          </div>
-        </div>
-
-        <div class="box">
-          <div class="image">
-            <img src="images/menu-2.png" alt="vanilla ice cream" />
-          </div>
-          <div class="content">
-            <h3 class="title">Нежная ваниль</h3>
-            <p>
-              В составе только Тайландская ваниль и кокос, кокосовые сливки и
-              сахар.
-            </p>
-            <div class="price">$15</div>
-          </div>
-        </div>
-
-        <div class="box">
-          <div class="image">
-            <img src="images/menu-3.png" alt="blueberry ice cream" />
-          </div>
-          <div class="content">
-            <h3 class="title">Сливочная черника</h3>
-            <p>
-              В составе Исландская черника, отборные сливки, тростниковый сахар
-              и ваниль.
-            </p>
-            <div class="price">$15</div>
-          </div>
-        </div>
-
-        <div class="box">
-          <div class="image">
-            <img src="images/menu-4.png" alt="lemon ice cream" />
-          </div>
-          <div class="content">
-            <h3 class="title">Летнее лимонное</h3>
-            <p>
-              В составе ароматные лимоны из Портофино, отборные сливки,
-              тростниковый сахар и ваниль из Комодоро.
-            </p>
-            <div class="price">$15</div>
-          </div>
-        </div>
-
-        <div class="box">
-          <div class="image">
-            <img src="images/menu-5.png" alt="plum ice cream" />
-          </div>
-          <div class="content">
-            <h3 class="title">Сладчайшая Слива</h3>
-            <p>
-              В составе только спелые сицилийские сливы, сливки, молоко и
-              сгущенное молоко.
-            </p>
-            <div class="price">$15</div>
-          </div>
-        </div>
-
-        <div class="box">
-          <div class="image">
-            <img src="images/menu-6.png" alt="raspberry ice cream" />
-          </div>
-          <div class="content">
-            <h3 class="title">Свежая малина</h3>
-            <p>
-              В составе свежая малина, ваниль, сливки, кокосовое молоко и
-              сливки.
-            </p>
-            <div class="price">$15</div>
-          </div>
-        </div>
+  
+      <div class="d-flex flex-column">
+        <img class="img-fluid" src="cranberryIceCream.jpg">
+        <img class="img-fluid" src="vanilaCone.jpg">
       </div>
-    </section>
-
-    
-<!-- footer -->
-
-    <section class="footer">
-      <h1 class="heading">Контакты</h1>
-      <div class="icons-container">
-        <div class="icons">
-          <i class="fas fa-map"></i>
-          <h3>Адрес:</h3>
-          <p>
-            1222 State St <br />
-            Santa Barbara, CA 93101<br />
-            United States
-          </p>
-        </div>
-
-        <div class="icons">
-          <i class="fas fa-phone"></i>
-          <h3>Телефон:</h3>
-          <p>+1 (805) 324-4642</p>
-        </div>
-
-        <div class="icons">
-          <i class="fas fa-clock"></i>
-          <h3>Часы работы:</h3>
-          <p>
-            Понедельник - Пятница: 8:00 - 23:00 <br />
-            Суббота - Воскресенье: 10:00 - 24:00
-          </p>
-        </div>
+  
+      <div class="d-flex flex-column">
+        <img class="img-fluid" src="vanillaCone.png">
+        <img class="img-fluid" src="cremeBrulee.jpg">
       </div>
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3291.103268658471!2d-119.70721748441086!3d34.424131905486824!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80e9147d7f4f7d15%3A0x1ea3fc1d028c4299!2zMTIyMiBTdGF0ZSBTdCwgU2FudGEgQmFyYmFyYSwgQ0EgOTMxMDEsINCh0KjQkA!5e0!3m2!1sru!2sru!4v1659419635857!5m2!1sru!2sru" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    </section>
+  
+      <div class="d-flex flex-column">
+        <img class="img-fluid" src="chocolateCone.jpg">
+        <img class="img-fluid" src="vanillaCone.png">
+      </div>
+    </div>
+  </div> -->
 
-    <!-- footer -->
-<!-- custom js -->
+<section id="map">
+    <h3>Let's have a date <img src="date.png"></h3>
+    <div>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d189.2492349381444!2d14.485750857923183!3d40.630151923526775!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x133b976923ef5cfb%3A0x9e693ea9fe1ab090!2sThe%20Ice%20Cream%20shop%20of%20Buca%20di%20Bacco!5e0!3m2!1sen!2sru!4v1690797664120!5m2!1sen!2sru" width="700" height="550" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+    <div class="address"></div>
+</section>
+
+<footer>
     
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js" integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous"></script>
-    
-  </body>
+</footer>
+
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js" integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa" crossorigin="anonymous"></script>
+</body>
 </html>
